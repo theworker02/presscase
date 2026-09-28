@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/presscase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Press config/case key checks for twelve-factor services.",
+  "bin": {
+    "presscase": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/presscase.git"
+  },
+  "homepage": "https://theworker02.github.io/presscase/",
+  "keywords": [
+    "press",
+    "case",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
